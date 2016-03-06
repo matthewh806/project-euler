@@ -1,6 +1,6 @@
 # project-euler
 
-My solutions for [Project Euler] https://projecteuler.net written in [Swift] https://swift.org
+My solutions for [Project Euler](https://projecteuler.net) written in [Swift](https://swift.org)
 
 This is part of my ongoing quest to learn more about number theory and the Swift language.
 
