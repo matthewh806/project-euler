@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		347992FA1C8CAA4B00F178E5 /* P4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347992F91C8CAA4B00F178E5 /* P4.swift */; };
+		347992FC1C8DEE3100F178E5 /* P5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347992FB1C8DEE3100F178E5 /* P5.swift */; };
+		347992FF1C8E196A00F178E5 /* PrimeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347992FE1C8E196A00F178E5 /* PrimeUtil.swift */; };
 		349A331C1C8C776300EC2137 /* P2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A331B1C8C776300EC2137 /* P2.swift */; };
 		349A331E1C8C7E6600EC2137 /* P3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A331D1C8C7E6600EC2137 /* P3.swift */; };
 		34AD40461C88D1A2002BF906 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AD40451C88D1A2002BF906 /* main.swift */; };
@@ -29,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		347992F91C8CAA4B00F178E5 /* P4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P4.swift; sourceTree = "<group>"; };
+		347992FB1C8DEE3100F178E5 /* P5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P5.swift; sourceTree = "<group>"; };
+		347992FE1C8E196A00F178E5 /* PrimeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeUtil.swift; sourceTree = "<group>"; };
 		349A331B1C8C776300EC2137 /* P2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P2.swift; sourceTree = "<group>"; };
 		349A331D1C8C7E6600EC2137 /* P3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P3.swift; sourceTree = "<group>"; };
 		34AD40421C88D1A2002BF906 /* project-euler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "project-euler"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		347992FD1C8E195500F178E5 /* MathUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				347992FE1C8E196A00F178E5 /* PrimeUtil.swift */,
+			);
+			name = MathUtilities;
+			sourceTree = "<group>";
+		};
 		34AD40391C88D1A2002BF906 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +79,7 @@
 		34AD40441C88D1A2002BF906 /* project-euler */ = {
 			isa = PBXGroup;
 			children = (
+				347992FD1C8E195500F178E5 /* MathUtilities */,
 				34E384721C88DD4200BCF6F0 /* problems */,
 				34AD40451C88D1A2002BF906 /* main.swift */,
 			);
@@ -81,6 +94,7 @@
 				349A331B1C8C776300EC2137 /* P2.swift */,
 				349A331D1C8C7E6600EC2137 /* P3.swift */,
 				347992F91C8CAA4B00F178E5 /* P4.swift */,
+				347992FB1C8DEE3100F178E5 /* P5.swift */,
 			);
 			name = problems;
 			sourceTree = "<group>";
@@ -144,8 +158,10 @@
 			files = (
 				34AD40461C88D1A2002BF906 /* main.swift in Sources */,
 				349A331C1C8C776300EC2137 /* P2.swift in Sources */,
+				347992FC1C8DEE3100F178E5 /* P5.swift in Sources */,
 				34E384711C88DD2E00BCF6F0 /* P1.swift in Sources */,
 				349A331E1C8C7E6600EC2137 /* P3.swift in Sources */,
+				347992FF1C8E196A00F178E5 /* PrimeUtil.swift in Sources */,
 				34AD404F1C88D2BC002BF906 /* Problem.swift in Sources */,
 				347992FA1C8CAA4B00F178E5 /* P4.swift in Sources */,
 			);

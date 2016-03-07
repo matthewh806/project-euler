@@ -16,46 +16,9 @@ What is the largest prime factor of the number 600851475143 ?
 
 class P3: Problem {
     func solve() -> String {
-        return "\(primeFactors(600851475143).maxElement()!)"
+        return "\(PrimeUtil.primeFactors(600851475143).maxElement()!)"
     }
-    
-    /*
-    Trial division method of factorization: https://en.wikipedia.org/wiki/Trial_division
-    */
-    func primeFactors(integer: Int) -> [Int] {
-        var n = integer
-        var pFactors: Set<Int> = []
         
-        if n < 2 { return [] }
-        for p in sieveOfEratosthenes(upTo: sqrt(n) + 1) {
-            if p * p > n { break }
-            
-            while n % p == 0 {
-                pFactors.insert(p)
-                n = n / p
-            }
-        }
-        if(n > 1) { pFactors.insert(n) }
-        
-        return pFactors.sort()
-    }
-    
-    func sieveOfEratosthenes(upTo n: Int) -> [Int] {
-        var numbers = [Int](2..<n)
-        
-        for i in 0..<n-2 {
-            guard numbers[i] > 0 else { continue }
-            let prime = numbers[i]
-            for multiple in (2*prime-2).stride(to: n-2, by: prime) {
-                numbers[multiple] = 0
-            }
-        }
-        
-        return numbers.filter({$0 > 0})
-    }
-    
-    func sqrt(x: Int) -> Int { return Int(Darwin.sqrt(Double(x))) }
-    
     required init() {
         
     }
