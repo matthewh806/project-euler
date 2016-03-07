@@ -14,6 +14,7 @@
 		349A331E1C8C7E6600EC2137 /* P3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349A331D1C8C7E6600EC2137 /* P3.swift */; };
 		34AD40461C88D1A2002BF906 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AD40451C88D1A2002BF906 /* main.swift */; };
 		34AD404F1C88D2BC002BF906 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AD404E1C88D2BC002BF906 /* Problem.swift */; };
+		34BF27AA1C8E38A3003D67E6 /* P6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BF27A91C8E38A3003D67E6 /* P6.swift */; };
 		34E384711C88DD2E00BCF6F0 /* P1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E384701C88DD2E00BCF6F0 /* P1.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		34AD40421C88D1A2002BF906 /* project-euler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "project-euler"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34AD40451C88D1A2002BF906 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		34AD404E1C88D2BC002BF906 /* Problem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
+		34BF27A91C8E38A3003D67E6 /* P6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P6.swift; sourceTree = "<group>"; };
 		34E384701C88DD2E00BCF6F0 /* P1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 				349A331D1C8C7E6600EC2137 /* P3.swift */,
 				347992F91C8CAA4B00F178E5 /* P4.swift */,
 				347992FB1C8DEE3100F178E5 /* P5.swift */,
+				34BF27A91C8E38A3003D67E6 /* P6.swift */,
 			);
 			name = problems;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			files = (
 				34AD40461C88D1A2002BF906 /* main.swift in Sources */,
 				349A331C1C8C776300EC2137 /* P2.swift in Sources */,
+				34BF27AA1C8E38A3003D67E6 /* P6.swift in Sources */,
 				347992FC1C8DEE3100F178E5 /* P5.swift in Sources */,
 				34E384711C88DD2E00BCF6F0 /* P1.swift in Sources */,
 				349A331E1C8C7E6600EC2137 /* P3.swift in Sources */,
