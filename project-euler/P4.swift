@@ -15,7 +15,32 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 */
 class P4: Problem {
     func solve() -> String {
-        return ""
+        
+        return "\(generatePalindromes(3).maxElement()!)"
+    }
+    
+    func generatePalindromes(numDigits: Int) -> [Int] {
+        var p:[Int] = []
+        var min = 1
+        for _ in 1..<numDigits {
+            min *= 10
+        }
+        let max = min * 10 - 1
+        
+        for i in (min...max) {
+            for j in (min...max) {
+                if isPalindrome(i * j) { p.append(i*j) }
+            }
+        }
+        
+        return p
+    }
+    
+    func isPalindrome(number: Int) -> Bool {
+        let str = String(number)
+        let revStr = String(str.characters.reverse())
+        
+        return str == revStr
     }
     
     required init() {
