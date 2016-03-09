@@ -16,7 +16,7 @@ import Foundation
 
 class P7 : Problem {
     func solve() -> String {
-        return "\(PrimeUtil.generatePrimesNaive(through: 10001))"
+        return "\(PrimeUtil.getNthPrime(10001))"
     }
     
     required init() { }

@@ -18,6 +18,7 @@
 		34CC7A371C90B8A500D068D9 /* P7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CC7A361C90B8A500D068D9 /* P7.swift */; };
 		34CC7A391C90D77A00D068D9 /* P8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CC7A381C90D77A00D068D9 /* P8.swift */; };
 		34CC7A3D1C90E16000D068D9 /* P9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CC7A3C1C90E16000D068D9 /* P9.swift */; };
+		34CC7A3F1C90EACA00D068D9 /* P10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CC7A3E1C90EACA00D068D9 /* P10.swift */; };
 		34E384711C88DD2E00BCF6F0 /* P1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E384701C88DD2E00BCF6F0 /* P1.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		34CC7A381C90D77A00D068D9 /* P8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P8.swift; sourceTree = "<group>"; };
 		34CC7A3B1C90D92B00D068D9 /* P8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = P8.txt; sourceTree = "<group>"; };
 		34CC7A3C1C90E16000D068D9 /* P9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P9.swift; sourceTree = "<group>"; };
+		34CC7A3E1C90EACA00D068D9 /* P10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P10.swift; sourceTree = "<group>"; };
 		34E384701C88DD2E00BCF6F0 /* P1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +119,7 @@
 				34CC7A361C90B8A500D068D9 /* P7.swift */,
 				34CC7A381C90D77A00D068D9 /* P8.swift */,
 				34CC7A3C1C90E16000D068D9 /* P9.swift */,
+				34CC7A3E1C90EACA00D068D9 /* P10.swift */,
 			);
 			name = problems;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34CC7A391C90D77A00D068D9 /* P8.swift in Sources */,
+				34CC7A3F1C90EACA00D068D9 /* P10.swift in Sources */,
 				34AD40461C88D1A2002BF906 /* main.swift in Sources */,
 				349A331C1C8C776300EC2137 /* P2.swift in Sources */,
 				34BF27AA1C8E38A3003D67E6 /* P6.swift in Sources */,

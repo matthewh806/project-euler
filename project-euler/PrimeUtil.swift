@@ -43,7 +43,11 @@ class PrimeUtil {
         return numbers.filter({$0 > 0})
     }
     
-    class func generatePrimesNaive(through n: Int) -> Int {
+    class func getNthPrime(n: Int) -> Int {
+        return generatePrimesNaive(through: n).last!
+    }
+    
+    class func generatePrimesNaive(through n: Int) -> [Int] {
         var primes = [Int](arrayLiteral: 2)
         
         var next = 3
@@ -55,7 +59,7 @@ class PrimeUtil {
             next += 1
         }
 
-        return primes.last!
+        return primes
     }
     
     /*
