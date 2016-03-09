@@ -15,6 +15,7 @@
 		34AD40461C88D1A2002BF906 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AD40451C88D1A2002BF906 /* main.swift */; };
 		34AD404F1C88D2BC002BF906 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AD404E1C88D2BC002BF906 /* Problem.swift */; };
 		34BF27AA1C8E38A3003D67E6 /* P6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BF27A91C8E38A3003D67E6 /* P6.swift */; };
+		34CC7A371C90B8A500D068D9 /* P7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CC7A361C90B8A500D068D9 /* P7.swift */; };
 		34E384711C88DD2E00BCF6F0 /* P1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E384701C88DD2E00BCF6F0 /* P1.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		34AD40451C88D1A2002BF906 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		34AD404E1C88D2BC002BF906 /* Problem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
 		34BF27A91C8E38A3003D67E6 /* P6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P6.swift; sourceTree = "<group>"; };
+		34CC7A361C90B8A500D068D9 /* P7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P7.swift; sourceTree = "<group>"; };
 		34E384701C88DD2E00BCF6F0 /* P1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 				347992F91C8CAA4B00F178E5 /* P4.swift */,
 				347992FB1C8DEE3100F178E5 /* P5.swift */,
 				34BF27A91C8E38A3003D67E6 /* P6.swift */,
+				34CC7A361C90B8A500D068D9 /* P7.swift */,
 			);
 			name = problems;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				349A331E1C8C7E6600EC2137 /* P3.swift in Sources */,
 				347992FF1C8E196A00F178E5 /* PrimeUtil.swift in Sources */,
 				34AD404F1C88D2BC002BF906 /* Problem.swift in Sources */,
+				34CC7A371C90B8A500D068D9 /* P7.swift in Sources */,
 				347992FA1C8CAA4B00F178E5 /* P4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

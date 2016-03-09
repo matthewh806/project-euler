@@ -9,10 +9,28 @@
 import Foundation
 import Darwin
 
+/*
+    Class with some common, reusable prime utilities
+    Helpful resource: http://stackoverflow.com/a/1072205
+*/
 class PrimeUtil {
     
     class func sieveOfEratosthenes(upTo n: Int) -> [Int] {
         var numbers = [Int](2..<n)
+
+        for i in 0..<n-2 {
+            guard numbers[i] > 0 else { continue }
+            let prime = numbers[i]
+            for multiple in (2*prime-2).stride(to: n-2, by: prime) {
+                numbers[multiple] = 0
+            }
+        }
+        
+        return numbers.filter({$0 > 0})
+    }
+    
+    class func sieveOfEratosthenes(through n: Int) -> [Int] {
+        var numbers = [Int](2...n)
         
         for i in 0..<n-2 {
             guard numbers[i] > 0 else { continue }
@@ -23,6 +41,21 @@ class PrimeUtil {
         }
         
         return numbers.filter({$0 > 0})
+    }
+    
+    class func generatePrimesNaive(through n: Int) -> Int {
+        var primes = [Int](arrayLiteral: 2)
+        
+        var next = 3
+        while(primes.count < n) {
+            let throughVal = sqrt(next) + 1
+            let isPrime = sieveOfEratosthenes(through: throughVal)
+                .filter({ next % $0 == 0}).count == 0
+            if(isPrime) { primes.append(next) }
+            next += 1
+        }
+
+        return primes.last!
     }
     
     /*
